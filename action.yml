@@ -26,7 +26,7 @@ inputs:
     default: ${{ github.event_name }}
 runs:
   using: docker
-  image: 'public.ecr.aws/n3g2m5h8/fresco-spectral-action:latest'
+  image: 'docker://public.ecr.aws/n3g2m5h8/fresco-spectral-action:latest'
 branding:
   icon: check-square
   color: blue
